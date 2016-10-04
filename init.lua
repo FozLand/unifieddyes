@@ -314,6 +314,7 @@ for i = 1, 12 do
 		recipe = {
 			"dye:" .. hue,
 			"dye:white",
+			"dye:white",
 			},
 		})
 	end
