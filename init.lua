@@ -310,7 +310,7 @@ for i = 1, 12 do
 	if hue ~= "red" then
 		minetest.register_craft( {
 		type = "shapeless",
-		output = "unifieddyes:light_" .. hue .. " 2",
+		output = "unifieddyes:light_" .. hue .. " 3",
 		recipe = {
 			"dye:" .. hue,
 			"dye:white",
